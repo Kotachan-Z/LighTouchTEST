@@ -1,0 +1,45 @@
+# ─── macOS ───────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ─── Claude Code ─────────────────────────────────────────────────────────────
+.claude/
+
+# ─── React Native / Node ─────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+app/android/
+app/ios/
+app/.expo/
+app/dist/
+app/storybook-static/
+
+# React Native generated
+app/android/app/build/
+app/.gradle/
+
+# ─── PlatformIO (firmware) ───────────────────────────────────────────────────
+firmware/.pio/
+firmware/.vscode/
+firmware/include/README
+firmware/lib/README
+firmware/test/README
+
+# ─── Editor ──────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ─── Secrets (念のため) ──────────────────────────────────────────────────────
+*.env
+.env.*
+*.pem
+*.key
